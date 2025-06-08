@@ -24,6 +24,7 @@ To get started with this project, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Z-yiwei/TDPS-Project.git
-2. ```bash
+2. Navigate to the project directory:
+   ```bash
    cd TDPS-Project
-3. Follow the setup instructions in the respective directories for each component (Flight Control, Vision, etc.).
+4. Follow the setup instructions in the respective directories for each component (Flight Control, Vision, etc.).
