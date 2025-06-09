@@ -1,0 +1,17 @@
+..\out\main.o: ..\USER\main.c
+..\out\main.o: ..\USER\stm32f10x_conf.h
+..\out\main.o: ..\Libraries\inc\stm32f10x_adc.h
+..\out\main.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\out\main.o: ..\CMSIS\CM3\CoreSupport\core_cm3.h
+..\out\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\out\main.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+..\out\main.o: ..\USER\stm32f10x_conf.h
+..\out\main.o: ..\Libraries\inc\stm32f10x_dma.h
+..\out\main.o: ..\Libraries\inc\stm32f10x_flash.h
+..\out\main.o: ..\Libraries\inc\stm32f10x_gpio.h
+..\out\main.o: ..\Libraries\inc\stm32f10x_i2c.h
+..\out\main.o: ..\Libraries\inc\stm32f10x_rcc.h
+..\out\main.o: ..\Libraries\inc\stm32f10x_spi.h
+..\out\main.o: ..\Libraries\inc\stm32f10x_tim.h
+..\out\main.o: ..\Libraries\inc\stm32f10x_usart.h
+..\out\main.o: ..\Libraries\inc\misc.h

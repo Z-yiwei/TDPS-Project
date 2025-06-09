@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "lx_fc_state.h": "c",
+        "drv_rcin.h": "c"
+    }
+}

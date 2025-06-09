@@ -1,0 +1,20 @@
+--cpu Cortex-M3
+"..\out\stm32f10x_it.o"
+"..\out\main.o"
+"..\out\core_cm3.o"
+"..\out\system_stm32f10x.o"
+"..\out\stm32f10x_gpio.o"
+"..\out\stm32f10x_rcc.o"
+"..\out\misc.o"
+"..\out\stm32f10x_usart.o"
+"..\out\stm32f10x_i2c.o"
+"..\out\stm32f10x_tim.o"
+"..\out\stm32f10x_spi.o"
+"..\out\stm32f10x_adc.o"
+"..\out\stm32f10x_dma.o"
+"..\out\stm32f10x_flash.o"
+"..\out\startup_stm32f10x_hd.o"
+--strict --scatter "..\OUT\32_duoji.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\LIST\32_duoji.map" -o ..\OUT\32_duoji.axf
